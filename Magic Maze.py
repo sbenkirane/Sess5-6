@@ -16,7 +16,7 @@ def main():
 
             try:
 
-                user_input = input()
+                user_input = input().upper()
                 moves += 1
 
                 if user_input in path:
